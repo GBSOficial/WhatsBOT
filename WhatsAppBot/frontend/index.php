@@ -1,5 +1,4 @@
 <?php
-session_start();
 include 'src/db/config.php';
 
 $pg = "";
@@ -9,9 +8,22 @@ if (isset($_GET['page']) && !empty($_GET['page'])) {
 
 switch($pg)
 {
-    case 'home': 
-        require 'src/themes/home.php';
-    break;
+    case 'login':
+        require 'src/themes/login.php';
+        break;
+    default:
+        require 'src/themes/login.php';
+        break;
+    case 'dashboard':
+        require 'src/themes/dashboard.php';
+        break;
+    case 'checklogin':
+        require 'src/themes/checkLogin.php';
+        break;
+    case 'logout':
+        require 'src/themes/logout.php';
+        break;
+
     case 'instance':
         require 'src/themes/instancia.php';
         break;
@@ -28,4 +40,3 @@ switch($pg)
         require 'src/themes/exibir_qrcode.php';
         break;
 }
-?>

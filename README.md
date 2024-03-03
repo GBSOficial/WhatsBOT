@@ -42,6 +42,8 @@ npm run test
 
 ## Updates
 
-- 01/03/2024 - Subi projeto no GIT
-- 01/03/2024 - Organizei as pastas e arquivos
-- 01/03/2024 - Adcionei sistema de DARKMode
+- 01/03/2024 - Subi projeto no GIT.
+- 01/03/2024 - Organizei as pastas e arquivos.
+- 01/03/2024 - Adcionei sistema de DARKMode.
+- 02/03/2024 - Adcionado Sistema de Login/Autenticação.
+- 02/03/2024 - Organizado Rotas e Correções de Bugs.

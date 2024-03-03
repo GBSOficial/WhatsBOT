@@ -20,7 +20,7 @@ include_once("src/db/config.php");
     <ul class="menu-inner py-1">
         <!-- Dashboard -->
         <li class="menu-item active open">
-            <a href="?page=home" class="menu-link">
+            <a href="?page=dashboard" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
             </a>
@@ -88,6 +88,9 @@ include_once("src/db/config.php");
         ?>
         </li>
     </ul>
+    <div class="newbtn-exit">
+    <a href='?page=logout' class='btn btn-primary btn-block'>Sair</a>
+    </div>
     <div class="darkmode-button">
   <button class="button-toggle" onclick="toggleMode()">
     <span id="sun-icon">☀️</span>

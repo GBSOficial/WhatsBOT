@@ -12,8 +12,8 @@ $options = [
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 ];
 
+// Criar conexão PDO
 try {
-    // Criar conexão PDO
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password, $options);
 } catch (PDOException $e) {
     // Exibir mensagem de erro

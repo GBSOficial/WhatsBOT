@@ -109,7 +109,13 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
+  .newbtn-exit
+  {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 5px;
+  }
 .icon {
   font-size: 24px;
   line-height: 50px;
